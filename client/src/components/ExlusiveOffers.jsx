@@ -21,7 +21,7 @@ const ExlusiveOffers = () => {
               style={{ backgroundImage: `url(${item.image})` }}>
 
               <p className='px-3 py-1 absolute top-4 left-4 text-xs bg-white text-gray-800 font-medium rounded-full'>
-                {item.price0ff}% OFF
+                {item.priceOff}% OFF
               </p>
 
               <div>
